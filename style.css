@@ -1,0 +1,66 @@
+div{
+    position: relative;
+    color:black;
+    height: 600px;
+    top: calc(50% - 600px/2);
+}
+
+img{
+    display: block;
+}
+
+#pao-topo{
+    left: calc(50% - 476px / 2);
+    position: absolute;
+    top: 140px;
+    z-index: 0;
+}
+
+#cebola{
+    left: calc(50% - 456px / 2);
+    position: absolute;
+    top: 180px;
+    z-index: -1;
+}
+
+#alface{
+    left: calc(50% - 596px / 2);
+    position: absolute;
+    top: 220px;
+    z-index: -2;
+}
+
+#tomate{
+    left: calc(50% - 501px / 2);
+    position: absolute;
+    top: 260px;
+    z-index: -3; 
+}
+
+#queijo1{
+    left: calc(50% - 521px / 2);
+    position: absolute;
+    top: 280px;
+    z-index: -4;
+}
+
+#carne{
+    left: calc(50% - 490px / 2);
+    position: absolute;
+    top: 300px;
+    z-index: -5;
+}
+
+#queijo2{
+    left: calc(50% - 521px / 2);
+    position: absolute;
+    top: 380px;
+    z-index: -6;
+}
+
+#pao-fundo{
+    left: calc(50% - 490px / 2);
+    position: absolute;
+    top: 400px;
+    z-index: -7;
+}
